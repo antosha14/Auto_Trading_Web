@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        "primary-color": "var(--rui-color-cyan)",
+        "secondary-color": "var(--rui-color-grey-20)",
+      },
+      gridTemplateColumns: {
+        "my-columns": "1fr auto",
+      },
     },
   },
   plugins: [],

@@ -3,9 +3,60 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --rui-color-channel-blue: 11 110 249;
+  --rui-color-channel-pink: 222 27 135;
+  --rui-color-channel-green: 6 127 68;
+  --rui-color-channel-orange: 214 114 0;
+  --rui-color-channel-red: 233 31 12;
+  --rui-color-channel-deep-pink: 230 30 73;
+  --rui-color-channel-terracotta: 202 79 18;
+  --rui-color-channel-yellow: 176 144 0;
+  --rui-color-channel-lime: 150 163 0;
+  --rui-color-channel-light-green: 66 134 25;
+  --rui-color-channel-teal: 0 168 126;
+  --rui-color-channel-cyan: 8 164 175;
+  --rui-color-channel-light-blue: 0 123 194;
+  --rui-color-channel-indigo: 98 98 211;
+  --rui-color-channel-deep-purple: 124 87 244;
+  --rui-color-channel-purple: 183 60 205;
+  --rui-color-channel-brown: 147 109 98;
+  --rui-color-channel-deep-grey: 85 120 155;
+  --rui-color-channel-black: 25 28 31;
+  --rui-color-channel-grey-50: 80 90 99;
+  --rui-color-channel-grey-20: 141 150 158;
+  --rui-color-channel-grey-10: 201 205 209;
+  --rui-color-channel-grey-5: 234 237 240;
+  --rui-color-channel-grey-8: 223 227 231;
+  --rui-color-channel-grey-2: 241 242 244;
+  --rui-color-channel-white: 255 255 255;
+  --rui-color-channel-action-blue: 231 242 253;
+  --rui-color-blue: #0b6ef9;
+  --rui-color-pink: #de1b87;
+  --rui-color-green: #067f44;
+  --rui-color-orange: #d67200;
+  --rui-color-red: #e91f0c;
+  --rui-color-deep-pink: #e61e49;
+  --rui-color-terracotta: #ca4f12;
+  --rui-color-yellow: #b09000;
+  --rui-color-lime: #96a300;
+  --rui-color-light-green: #428619;
+  --rui-color-teal: #00a87e;
+  --rui-color-cyan: #08a4af;
+  --rui-color-light-blue: #007bc2;
+  --rui-color-indigo: #6262d3;
+  --rui-color-deep-purple: #7c57f4;
+  --rui-color-purple: #b73ccd;
+  --rui-color-brown: #936d62;
+  --rui-color-deep-grey: #55789b;
+  --rui-color-black: #191c1f;
+  --rui-color-grey-50: #505a63;
+  --rui-color-grey-20: #8d969e;
+  --rui-color-grey-10: #c9cdd1;
+  --rui-color-grey-5: #eaedf0;
+  --rui-color-grey-8: #dfe3e7;
+  --rui-color-grey-2: #f1f2f4;
+  --rui-color-white: #fff;
+  --rui-color-action-blue: #e7f2fd;
 }
 
 @media (prefers-color-scheme: dark) {
